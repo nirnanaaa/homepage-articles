@@ -17,7 +17,11 @@ gollum_redmine is a plugin for redmine. It includes the following features:
 
 Simply download it from my GitHub page.
 
-<script src="https://gist.github.com/nirnanaaa/65bf1a76d5a2a0974d58.js"></script>
+```sh
+cd /path/to/your/redmine/folder
+cd plugins
+git clone https://github.com/nirnanaaa/gollum_redmine.git gollum
+```
 
 ### How does it work?
 
