@@ -1,6 +1,16 @@
 ---
 title: GollumRedmine
 date: 2014-01-30 14:21:00 GMT+02
+description: "What is Gollum for Redmine and how to install this piece of Software"
+keywords:
+  - Gollum
+  - redmine
+  - plugin
+  - github
+  - nirnanaaa
+  - gollum_redmine
+  - wiki
+  - commit
 ---
 
 ### What is GollumRedmine?
