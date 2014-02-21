@@ -1,6 +1,17 @@
 ---
 title: Installieren des SPDY2/3 Modules für NGINX auf Debian
 date: 2014-02-20 19:14:00 GMT+02
+description: "How to install Nginx with SPDY3 module on Debian 7.0 Wheezy"
+keywords:
+  - nginx
+  - spdy
+  - spdy3
+  - spdy-nginx
+  - chrome
+  - opera
+  - firefox
+  - internet
+  - pcre
 ---
 
 SPDY ist ein Protokoll, welches von Google eingeführt wurde um die Ladezeiten von Websiten
