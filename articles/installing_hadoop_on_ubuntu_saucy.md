@@ -11,7 +11,7 @@ keywords:
   - wordcount
 ---
 
-[[http://www.bytemining.com/wp-content/uploads/2011/06/hadoop.png]]
+[[http://www.datameer.com/images/technology/hadoop-pic1.png]]
 
 In this tutorial I will describe the required steps for setting up a pseudo-distributed, single-node YARN Hadoop cluster.backed by the Hadoop Distributed File System (HDFS), running on Ubuntu Linux 13.10 codename Saucy.
 
