@@ -45,9 +45,9 @@ Wir laden uns den Nginx Quellcode von der Offiziellen Seite: [[http://nginx.org/
 dass man Version `>= 1.5.10` verwendet, da in dieser erst der Standard 3.1 von SPDY eingeführt wurde.
 
 ```sh
-wget http://nginx.org/download/nginx-1.5.10.tar.gz
-tar xfvz nginx-1.5.10.tar.gz
-cd nginx-1.5.10.tar.gz
+wget http://nginx.org/download/nginx-1.7.2.tar.gz
+tar xfvz nginx-1.7.2.tar.gz
+cd nginx-1.7.2.tar.gz
 ```
 
 Um die SPDY Funktionalität zu aktivieren benötigt man beim Konfigurieren den Schalter `--with-http_spdy_module`.
@@ -93,9 +93,10 @@ Anschließend kann man das Ganze bauen:
 make
 ```
 
-Nun muss man das Binary an die Stelle des orginalen NGINX binaries kopieren:
+Nun muss man das Binary an die Stelle des orginalen NGINX binaries kopieren. Vorher muss allerdings sichergestellt werden dass NGINX nicht mehr läuft:
 
 ```sh
+sudo service nginx stop
 cp objs/nginx `which nginx`
 ln -s /etc/nginx /var/lib/nginx/conf
 ln -s /var/log/nginx /var/lib/nginx/logs
